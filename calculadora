@@ -1,0 +1,26 @@
+//hacer un programa que según dos núms ingresados: se le suma, resta, multiplica, y divide
+#include <stdio.h>
+
+int main () {
+    //ambiente
+    int num1, num2, suma, res, mult;
+    float div;
+    //proceso
+    printf("Ingrese el primer número\n");
+    scanf("%d", &num1);
+    printf("Ingrese el segundo número\n");
+    scanf("%d", &num2);
+    //suma
+    suma= num1+num2;
+    printf("La suma de %d y %d da como resultado: %d \n", num1, num2, suma);
+    //resta
+    res= num1-num2;
+    printf("La resta de %d y %d da como resultado: %d \n", num1, num2, res);
+    //multiplicación
+    mult= num1*num2;
+    printf("La multiplicación de %d y %d da como resultado: %d \n", num1, num2, mult);
+    //división
+    div= (float) num1/num2;
+    printf("La división de %d y %d da como resultado: %.2f \n", num1, num2, div);
+    return 0;
+}
