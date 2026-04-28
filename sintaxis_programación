@@ -6,6 +6,8 @@ while (condicion) {
 }
 
 // for
+/*En C, la sentencia FOR se inicializa con 0 */
+
 for (inicializacion; condicion; actualizacion) {
     instrucciones;
 }
